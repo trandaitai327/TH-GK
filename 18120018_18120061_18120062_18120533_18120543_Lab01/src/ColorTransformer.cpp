@@ -101,7 +101,7 @@ int ColorTransformer::ChangeContrast(const cv::Mat& sourceImage, cv::Mat& destin
 	if (!sourceImage.data) {
 		// Chuyển đổi ảnh thất bại: in ra màn hình console tin nhắn
 		std::cout << "[EXCEPTION] Error with input image.\n";
-		return 0; // Trả về 1
+		return 0; 
 	}
 	// Tính số cột, số dòng của sourceImage
 	int width = sourceImage.cols, height = sourceImage.rows;
