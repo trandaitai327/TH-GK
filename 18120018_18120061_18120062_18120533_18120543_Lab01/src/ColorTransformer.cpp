@@ -98,7 +98,7 @@ int ColorTransformer::ChangeBrighness(const cv::Mat& sourceImage, cv::Mat& desti
 
 int ColorTransformer::ChangeContrast(const cv::Mat& sourceImage, cv::Mat& destinationImage, float c)
 {
-	return 0;
+	
 }
 
 int ColorTransformer::CalcHistogram(const cv::Mat& sourceImage, cv::Mat& histMatrix)
